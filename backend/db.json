@@ -1,0 +1,216 @@
+{
+  "users": [
+    {
+      "name": "sinan",
+      "email": "sinan@mail.com",
+      "password": "1234",
+      "role": "super_admin",
+      "id": "ShSNMAfi_YU"
+    },
+    {
+      "name": "Fasal",
+      "email": "fasal@mail.com",
+      "password": "1234",
+      "role": "admin",
+      "id": "DmibziLPVNg"
+    },
+    {
+      "name": "arun ",
+      "email": "arun@mail",
+      "password": "1234",
+      "role": "Team Leader",
+      "id": "ssOlo0IyHaU"
+    },
+    {
+      "name": "Arun",
+      "email": "arun@gmail.com",
+      "password": "1234",
+      "role": "Employee",
+      "id": "OLQnfjKfotQ"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ChefKichen",
+      "description": "just a website ",
+      "deadline": "2026-04-17",
+      "members": [
+        {
+          "userId": "DmibziLPVNg",
+          "username": "Fasal",
+          "task": "full work ",
+          "status": "pending"
+        },
+        {
+          "userId": "ssOlo0IyHaU",
+          "username": "arun ",
+          "task": "ethelum pani cheyyadaa ",
+          "startDate": "2026-04-04",
+          "submissionDate": "2026-04-13",
+          "status": "completed"
+        },
+        {
+          "userId": "OLQnfjKfotQ",
+          "username": "Arun",
+          "task": "mmammamsn",
+          "startDate": "2026-04-04",
+          "submissionDate": "2026-04-21",
+          "status": "pending"
+        }
+      ],
+      "status": "active",
+      "startDate": "2026-04-03T04:05:35.007Z",
+      "endDate": null,
+      "id": "_iitmZOg9YE"
+    },
+    {
+      "name": "ABC ecommer",
+      "description": "an Ecommerse web-app",
+      "deadline": "",
+      "members": [
+        {
+          "userId": "ShSNMAfi_YU",
+          "username": "sinan",
+          "task": "jkjgkjg",
+          "status": "completed"
+        },
+        {
+          "userId": "DmibziLPVNg",
+          "username": "Fasal",
+          "task": "ghhh",
+          "status": "pending"
+        },
+        {
+          "userId": "OLQnfjKfotQ",
+          "username": "Arun",
+          "task": "DB management ",
+          "startDate": "2026-04-06",
+          "submissionDate": "2026-04-13",
+          "status": "completed"
+        }
+      ],
+      "status": "active",
+      "startDate": "2026-04-03T05:25:58.457Z",
+      "endDate": null,
+      "id": "wVYcM_uiHRo"
+    }
+  ],
+  "roles": [
+    {
+      "id": "super_admin",
+      "name": "super_admin",
+      "permissions": [
+        "view_employees",
+        "add_employee",
+        "edit_employee",
+        "delete_employee",
+        "view_projects",
+        "add_project",
+        "edit_project",
+        "delete_project",
+        "view_tasks",
+        "complete_task",
+        "view_roles",
+        "add_role",
+        "edit_role",
+        "delete_role"
+      ]
+    },
+    {
+      "id": "8b0RjRBvGg0",
+      "name": "admin",
+      "permissions": [
+        "view_employees",
+        "add_employee",
+        "edit_employee",
+        "delete_employee",
+        "view_projects",
+        "add_project",
+        "edit_project",
+        "delete_project",
+        "view_tasks",
+        "add_task",
+        "edit_task",
+        "delete_task",
+        "complete_task",
+        "view_roles"
+      ]
+    },
+    {
+      "id": "aC1JqEcObxY",
+      "name": "HR",
+      "permissions": [
+        "view_employees",
+        "view_projects",
+        "add_project",
+        "edit_project",
+        "delete_project",
+        "view_tasks",
+        "complete_task",
+        "edit_employee"
+      ]
+    },
+    {
+      "id": "On8mcxSIpCA",
+      "name": "Team Leader",
+      "permissions": [
+        "view_employees",
+        "view_projects",
+        "edit_project",
+        "view_tasks",
+        "complete_task",
+        "assign_task",
+        "edit_task"
+      ]
+    },
+    {
+      "id": "pTSoVetiwvs",
+      "name": "Employee",
+      "permissions": [
+        "view_projects",
+        "view_tasks",
+        "complete_task",
+        "view_employees"
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "userId": "ShSNMAfi_YU",
+      "message": "New project \"name\" was created.",
+      "type": "project",
+      "projectId": null,
+      "read": true,
+      "createdAt": "2026-04-03T04:59:45.259Z",
+      "id": "D1WUyrfsXQ8"
+    },
+    {
+      "userId": "DmibziLPVNg",
+      "message": "New project \"name\" was created.",
+      "type": "project",
+      "projectId": null,
+      "read": false,
+      "createdAt": "2026-04-03T04:59:45.259Z",
+      "id": "HsLpojxNyNY"
+    },
+    {
+      "userId": "ShSNMAfi_YU",
+      "message": "New project \"ABC ecommer\" was created.",
+      "type": "project",
+      "projectId": "wVYcM_uiHRo",
+      "read": false,
+      "createdAt": "2026-04-03T05:25:58.477Z",
+      "id": "ahHzs8mRk5s"
+    },
+    {
+      "userId": "DmibziLPVNg",
+      "message": "New project \"ABC ecommer\" was created.",
+      "type": "project",
+      "projectId": "wVYcM_uiHRo",
+      "read": false,
+      "createdAt": "2026-04-03T05:25:58.478Z",
+      "id": "J11Jvvz7RHI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
